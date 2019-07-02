@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FMS" time="53" tests="2" failures="0" errors="0">
+   <testsuite name="FMS" tests="2" failures="0" errors="0" time="53" timestamp="2019-04-11 17:56:08" hostname="win10 - DESKTOP-28KHHQ1" id="Test Suites/FMS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\win10\\git\\hcm_qa\\OCS_HCM\\OCS_HCM\\Reports\\FMS\\20190411_175604"/>
+         <property name="logFiles" value="C:\\Users\\win10\\git\\hcm_qa\\OCS_HCM\\OCS_HCM\\Reports\\FMS\\20190411_175604\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="win10 - DESKTOP-28KHHQ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="10.159.242.133"/>
+         <property name="sessionId" value="f5633621-edd0-4ac9-82bb-3eaf886462f1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/OCS_Page_Test/FMS_Validate/FMS_CreateCase_validate" classname="Test Cases/OCS_Page_Test/FMS_Validate/FMS_CreateCase_validate" status="PASSED">
+         <system-out><![CDATA[2019-04-11 17:56:08 - [TEST_CASE][PASSED] - Test Cases/OCS_Page_Test/FMS_Validate/FMS_CreateCase_validate: Test Cases/OCS_Page_Test/FMS_Validate/FMS_CreateCase_validate
+
+2019-04-11 17:56:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/FMS_Page/Create_new_FMS Case"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/FMS_Page/Create_new_FMS Case' successfully
+
+2019-04-11 17:56:10 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/FMS_Page/Create_new_FMS Case: Test Cases/OCS_Page/FMS_Page/Create_new_FMS Case
+
+2019-04-11 17:56:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/FMS_Page/Fms_password_Validate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/FMS_Page/Fms_password_Validate' successfully
+
+2019-04-11 17:56:10 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/FMS_Page/Fms_password_Validate: Test Cases/OCS_Page/FMS_Page/Fms_password_Validate
+
+2019-04-11 17:56:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SetUpp/SetUp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SetUpp/SetUp' successfully
+
+2019-04-11 17:56:11 - [TEST_CASE][PASSED] - Test Cases/SetUpp/SetUp: Test Cases/SetUpp/SetUp
+
+2019-04-11 17:56:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-11 17:56:11 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-11 17:56:11 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-11 17:56:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 17:56:17 - [TEST_STEP][PASSED] - navigateToUrl("https://ydtwebstaging.com"): Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-04-11 17:56:28 - [MESSAGE][PASSED] - Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-04-11 17:56:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-11 17:56:28 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 17:56:28 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-04-11 17:56:28 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-11 17:56:28 - [TEST_STEP][PASSED] - getWindowTitle(): Current window's title is: 'Healthcare Manager'
+
+2019-04-11 17:56:28 - [MESSAGE][PASSED] - Current window's title is: 'Healthcare Manager'
+
+2019-04-11 17:56:28 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2019-04-11 17:56:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-11 17:56:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SetUpp/SetUp' successfully
+
+2019-04-11 17:56:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/Login_Page/LoginPage_Positive_validate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate' successfully
+
+2019-04-11 17:56:28 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate: Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate
+
+2019-04-11 17:56:28 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_username"), "Archana@123"): Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-04-11 17:56:29 - [MESSAGE][PASSED] - Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-04-11 17:56:29 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_password"), "Archana@123"): Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-04-11 17:56:29 - [MESSAGE][PASSED] - Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-04-11 17:56:29 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page_OB/Page_Healthcare Manager/button_Submit")): Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-04-11 17:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-04-11 17:56:29 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully")): NOT_RUN: verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully"))
+
+2019-04-11 17:56:29 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully"))
+
+2019-04-11 17:56:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate' successfully
+
+2019-04-11 17:56:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_FMS")): Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_FMS' is visible
+
+2019-04-11 17:56:31 - [MESSAGE][PASSED] - Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_FMS' is visible
+
+2019-04-11 17:56:31 - [TEST_STEP][PASSED] - click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_FMS")): Object: 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_FMS' is clicked on
+
+2019-04-11 17:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_FMS' is clicked on
+
+2019-04-11 17:56:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("profile_FMS/Page_Healthcare Manager/input_Please Enter Your Credentials_pin"), "123456"): Keys '123456' sent to object: 'Object Repository/profile_FMS/Page_Healthcare Manager/input_Please Enter Your Credentials_pin'
+
+2019-04-11 17:56:31 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/profile_FMS/Page_Healthcare Manager/input_Please Enter Your Credentials_pin'
+
+2019-04-11 17:56:31 - [TEST_STEP][PASSED] - submit(findTestObject("profile_FMS/Page_Healthcare Manager/input_Please Enter Your Credentials_pin")): The form containing object: 'Object Repository/profile_FMS/Page_Healthcare Manager/input_Please Enter Your Credentials_pin' is submitted
+
+2019-04-11 17:56:31 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/profile_FMS/Page_Healthcare Manager/input_Please Enter Your Credentials_pin' is submitted
+
+2019-04-11 17:56:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/FMS_Page/Fms_password_Validate' successfully
+
+2019-04-11 17:56:31 - [TEST_STEP][PASSED] - click(findTestObject("FMS_Create_Case/Page_Healthcare Manager/span_Initiate FMS Case_btn")): Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/span_Initiate FMS Case_btn' is clicked on
+
+2019-04-11 17:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/span_Initiate FMS Case_btn' is clicked on
+
+2019-04-11 17:56:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("FMS_Create_Case/Page_Healthcare Manager/h1_Creating Feedback Case_title"), 10): Object 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/h1_Creating Feedback Case_title' is present
+
+2019-04-11 17:56:33 - [MESSAGE][PASSED] - Object 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/h1_Creating Feedback Case_title' is present
+
+2019-04-11 17:56:33 - [TEST_STEP][PASSED] - setText(findTestObject("FMS_Create_Case/Page_Healthcare Manager/input_Event Date_event_date"), "12/04/2019"): Text '12/04/2019' is set on object 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/input_Event Date_event_date'
+
+2019-04-11 17:56:34 - [MESSAGE][PASSED] - Text '12/04/2019' is set on object 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/input_Event Date_event_date'
+
+2019-04-11 17:56:34 - [TEST_STEP][PASSED] - click(findTestObject("FMS_Create_Case/Page_Healthcare Manager/div_Case Category_drodwn")): Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/div_Case Category_drodwn' is clicked on
+
+2019-04-11 17:56:34 - [MESSAGE][PASSED] - Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/div_Case Category_drodwn' is clicked on
+
+2019-04-11 17:56:34 - [TEST_STEP][PASSED] - click(findTestObject("FMS_Create_Case/Page_Healthcare Manager/div_Staff Performance_choose")): Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/div_Staff Performance_choose' is clicked on
+
+2019-04-11 17:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/div_Staff Performance_choose' is clicked on
+
+2019-04-11 17:56:35 - [TEST_STEP][PASSED] - click(findTestObject("FMS_Create_Case/Page_Healthcare Manager/span_Member of Public_drpdwn")): Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/span_Member of Public_drpdwn' is clicked on
+
+2019-04-11 17:56:36 - [MESSAGE][PASSED] - Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/span_Member of Public_drpdwn' is clicked on
+
+2019-04-11 17:56:36 - [TEST_STEP][PASSED] - if (false): null
+
+2019-04-11 17:56:36 - [TEST_STEP][PASSED] - else if (false): null
+
+2019-04-11 17:56:36 - [TEST_STEP][PASSED] - else if (false): null
+
+2019-04-11 17:56:36 - [TEST_STEP][PASSED] - else if (false): null
+
+2019-04-11 17:56:36 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/div_archana mohini' is clicked on
+
+2019-04-11 17:56:36 - [TEST_STEP][PASSED] - click(findTestObject("FMS_Create_Case/Page_Healthcare Manager/div_ONCALL UserAdmin_op5")): Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/div_ONCALL UserAdmin_op5' is clicked on
+
+2019-04-11 17:56:36 - [MESSAGE][PASSED] - Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/div_ONCALL UserAdmin_op5' is clicked on
+
+2019-04-11 17:56:36 - [TEST_STEP][PASSED] - click(findTestObject("FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/div_Search")): Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/div_Search' is clicked on
+
+2019-04-11 17:56:37 - [MESSAGE][PASSED] - Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/div_Search' is clicked on
+
+2019-04-11 17:56:37 - [TEST_STEP][PASSED] - setText(findTestObject("FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/input"), "archana"): Text 'archana' is set on object 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/input'
+
+2019-04-11 17:56:37 - [MESSAGE][PASSED] - Text 'archana' is set on object 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/input'
+
+2019-04-11 17:56:37 - [TEST_STEP][PASSED] - click(findTestObject("FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/div_archana mohini")): Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/div_archana mohini' is clicked on
+
+2019-04-11 17:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/div_archana mohini' is clicked on
+
+2019-04-11 17:56:39 - [TEST_STEP][PASSED] - click(findTestObject("FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/span_Member of Public")): Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/span_Member of Public' is clicked on
+
+2019-04-11 17:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/span_Member of Public' is clicked on
+
+2019-04-11 17:56:39 - [TEST_STEP][PASSED] - click(findTestObject("FMS_Create_Case/last)OB/Page_Healthcare Manager/Page_Healthcare Manager/div_ONCALL UserAdmin")): Object: 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/Page_Healthcare Manager/div_ONCALL UserAdmin' is clicked on
+
+2019-04-11 17:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/Page_Healthcare Manager/div_ONCALL UserAdmin' is clicked on
+
+2019-04-11 17:56:40 - [TEST_STEP][PASSED] - click(findTestObject("FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/div_Search")): Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/div_Search' is clicked on
+
+2019-04-11 17:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/div_Search' is clicked on
+
+2019-04-11 17:56:40 - [TEST_STEP][PASSED] - setText(findTestObject("FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/input"), "archana"): Text 'archana' is set on object 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/input'
+
+2019-04-11 17:56:40 - [MESSAGE][PASSED] - Text 'archana' is set on object 'Object Repository/FMS_Create_Case/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/input'
+
+2019-04-11 17:56:40 - [TEST_STEP][PASSED] - click(findTestObject("FMS_Create_Case/last)OB/Page_Healthcare Manager/div_archana mohini")): Object: 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/div_archana mohini' is clicked on
+
+2019-04-11 17:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/div_archana mohini' is clicked on
+
+2019-04-11 17:56:42 - [TEST_STEP][PASSED] - setText(findTestObject("FMS_Create_Case/last)OB/Page_Healthcare Manager/input_Event Location_event_location0"), "dvsfhbfdjkbdjkgbkdfjzsbfbzsjgdfhgjkfk"): Text 'dvsfhbfdjkbdjkgbkdfjzsbfbzsjgdfhgjkfk' is set on object 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/input_Event Location_event_location0'
+
+2019-04-11 17:56:42 - [MESSAGE][PASSED] - Text 'dvsfhbfdjkbdjkgbkdfjzsbfbzsjgdfhgjkfk' is set on object 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/input_Event Location_event_location0'
+
+2019-04-11 17:56:42 - [TEST_STEP][PASSED] - click(findTestObject("FMS_Create_Case/last)OB/Page_Healthcare Manager/div_State")): Object: 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/div_State' is clicked on
+
+2019-04-11 17:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/div_State' is clicked on
+
+2019-04-11 17:56:42 - [TEST_STEP][PASSED] - click(findTestObject("FMS_Create_Case/last)OB/Page_Healthcare Manager/div_NSW")): Object: 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/div_NSW' is clicked on
+
+2019-04-11 17:56:43 - [MESSAGE][PASSED] - Object: 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/div_NSW' is clicked on
+
+2019-04-11 17:56:43 - [TEST_STEP][PASSED] - click(findTestObject("FMS_Create_Case/last)OB/Page_Healthcare Manager/div_Suburb_Select-value"), STOP_ON_FAILURE): Object: 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/div_Suburb_Select-value' is clicked on
+
+2019-04-11 17:56:43 - [MESSAGE][PASSED] - Object: 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/div_Suburb_Select-value' is clicked on
+
+2019-04-11 17:56:43 - [TEST_STEP][PASSED] - setText(findTestObject("FMS_Create_Case/last)OB/Page_Healthcare Manager/input_Surb"), "liv"): Text 'liv' is set on object 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/input_Surb'
+
+2019-04-11 17:56:44 - [MESSAGE][PASSED] - Text 'liv' is set on object 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/input_Surb'
+
+2019-04-11 17:56:44 - [TEST_STEP][PASSED] - click(findTestObject("FMS_Create_Case/last)OB/Page_Healthcare Manager/div_Cullivel")): Object: 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/div_Cullivel' is clicked on
+
+2019-04-11 17:56:45 - [MESSAGE][PASSED] - Object: 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/div_Cullivel' is clicked on
+
+2019-04-11 17:56:45 - [TEST_STEP][PASSED] - setText(findTestObject("FMS_Create_Case/last)OB/Page_Healthcare Manager/input_Reason_title"), "khnjksdbbbbbbbbbbbbbbbbbgadfhnkjhnkjererfhng"): Text 'khnjksdbbbbbbbbbbbbbbbbbgadfhnkjhnkjererfhng' is set on object 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/input_Reason_title'
+
+2019-04-11 17:56:45 - [MESSAGE][PASSED] - Text 'khnjksdbbbbbbbbbbbbbbbbbgadfhnkjhnkjererfhng' is set on object 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/input_Reason_title'
+
+2019-04-11 17:56:45 - [TEST_STEP][PASSED] - setText(findTestObject("FMS_Create_Case/last)OB/Page_Healthcare Manager/textarea_Reason_description"), "dfvbjh cjnvbjfbfjhbdfnvbhjfbaj jdnasbn djhdhfgvrdjb fvhng"): Text 'dfvbjh cjnvbjfbfjhbdfnvbhjfbaj jdnasbn djhdhfgvrdjb fvhng' is set on object 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/textarea_Reason_description'
+
+2019-04-11 17:56:45 - [MESSAGE][PASSED] - Text 'dfvbjh cjnvbjfbfjhbdfnvbhjfbaj jdnasbn djhdhfgvrdjb fvhng' is set on object 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/textarea_Reason_description'
+
+2019-04-11 17:56:45 - [TEST_STEP][PASSED] - setText(findTestObject("FMS_Create_Case/last)OB/Page_Healthcare Manager/input_Notes_notes_title"), "dfgdfggf"): Text 'dfgdfggf' is set on object 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/input_Notes_notes_title'
+
+2019-04-11 17:56:45 - [MESSAGE][PASSED] - Text 'dfgdfggf' is set on object 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/input_Notes_notes_title'
+
+2019-04-11 17:56:45 - [TEST_STEP][PASSED] - setText(findTestObject("FMS_Create_Case/last)OB/Page_Healthcare Manager/textarea_Notes_notes"), "dfgdasasdfgfgggghadfsda"): Text 'dfgdasasdfgfgggghadfsda' is set on object 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/textarea_Notes_notes'
+
+2019-04-11 17:56:45 - [MESSAGE][PASSED] - Text 'dfgdasasdfgfgggghadfsda' is set on object 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/textarea_Notes_notes'
+
+2019-04-11 17:56:45 - [TEST_STEP][PASSED] - click(findTestObject("FMS_Create_Case/last)OB/Page_Healthcare Manager/button_Save Case")): Object: 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/button_Save Case' is clicked on
+
+2019-04-11 17:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/FMS_Create_Case/last)OB/Page_Healthcare Manager/button_Save Case' is clicked on
+
+2019-04-11 17:56:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/FMS_Page/Create_new_FMS Case' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS_Page_Test/FMS_Validate/FMS_login" classname="Test Cases/OCS_Page_Test/FMS_Validate/FMS_login" status="PASSED">
+         <system-out><![CDATA[2019-04-11 17:56:46 - [TEST_CASE][PASSED] - Test Cases/OCS_Page_Test/FMS_Validate/FMS_login: Test Cases/OCS_Page_Test/FMS_Validate/FMS_login
+
+2019-04-11 17:56:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/FMS_Page/Fms_password_Validate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/FMS_Page/Fms_password_Validate' successfully
+
+2019-04-11 17:56:46 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/FMS_Page/Fms_password_Validate: Test Cases/OCS_Page/FMS_Page/Fms_password_Validate
+
+2019-04-11 17:56:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SetUpp/SetUp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SetUpp/SetUp' successfully
+
+2019-04-11 17:56:46 - [TEST_CASE][PASSED] - Test Cases/SetUpp/SetUp: Test Cases/SetUpp/SetUp
+
+2019-04-11 17:56:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-11 17:56:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-11 17:56:47 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-11 17:56:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 17:56:49 - [TEST_STEP][PASSED] - navigateToUrl("https://ydtwebstaging.com"): Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-04-11 17:56:58 - [MESSAGE][PASSED] - Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-04-11 17:56:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-11 17:56:58 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 17:56:58 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-04-11 17:56:58 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-11 17:56:58 - [TEST_STEP][PASSED] - getWindowTitle(): Current window's title is: 'Healthcare Manager'
+
+2019-04-11 17:56:58 - [MESSAGE][PASSED] - Current window's title is: 'Healthcare Manager'
+
+2019-04-11 17:56:58 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2019-04-11 17:56:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-11 17:56:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SetUpp/SetUp' successfully
+
+2019-04-11 17:56:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/Login_Page/LoginPage_Positive_validate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate' successfully
+
+2019-04-11 17:56:58 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate: Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate
+
+2019-04-11 17:56:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_username"), "Archana@123"): Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-04-11 17:56:59 - [MESSAGE][PASSED] - Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-04-11 17:56:59 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_password"), "Archana@123"): Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-04-11 17:56:59 - [MESSAGE][PASSED] - Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-04-11 17:56:59 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page_OB/Page_Healthcare Manager/button_Submit")): Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-04-11 17:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-04-11 17:56:59 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully")): NOT_RUN: verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully"))
+
+2019-04-11 17:56:59 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully"))
+
+2019-04-11 17:56:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate' successfully
+
+2019-04-11 17:56:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_FMS")): Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_FMS' is visible
+
+2019-04-11 17:57:00 - [MESSAGE][PASSED] - Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_FMS' is visible
+
+2019-04-11 17:57:00 - [TEST_STEP][PASSED] - click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_FMS")): Object: 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_FMS' is clicked on
+
+2019-04-11 17:57:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_FMS' is clicked on
+
+2019-04-11 17:57:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("profile_FMS/Page_Healthcare Manager/input_Please Enter Your Credentials_pin"), "123456"): Keys '123456' sent to object: 'Object Repository/profile_FMS/Page_Healthcare Manager/input_Please Enter Your Credentials_pin'
+
+2019-04-11 17:57:01 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/profile_FMS/Page_Healthcare Manager/input_Please Enter Your Credentials_pin'
+
+2019-04-11 17:57:01 - [TEST_STEP][PASSED] - submit(findTestObject("profile_FMS/Page_Healthcare Manager/input_Please Enter Your Credentials_pin")): The form containing object: 'Object Repository/profile_FMS/Page_Healthcare Manager/input_Please Enter Your Credentials_pin' is submitted
+
+2019-04-11 17:57:01 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/profile_FMS/Page_Healthcare Manager/input_Please Enter Your Credentials_pin' is submitted
+
+2019-04-11 17:57:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/FMS_Page/Fms_password_Validate' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-11 17:56:08 - [TEST_SUITE][PASSED] - FMS: Test Cases/OCS_Page_Test/FMS_Validate/FMS_login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

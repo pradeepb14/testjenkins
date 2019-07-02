@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginTest" time="41" tests="4" failures="0" errors="0">
+   <testsuite name="LoginTest" tests="4" failures="0" errors="0" time="41" timestamp="2019-04-02 09:43:16" hostname="win10 - DESKTOP-28KHHQ1" id="Test Suites/LoginTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\win10\\Katalon Studio\\OCS_HCM\\Reports\\LoginTest\\20190402_094315"/>
+         <property name="logFiles" value="C:\\Users\\win10\\Katalon Studio\\OCS_HCM\\Reports\\LoginTest\\20190402_094315\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="win10 - DESKTOP-28KHHQ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="10.159.242.133"/>
+         <property name="sessionId" value="f953196a-a27c-48bb-b126-6825ef79d2ac"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/OCS_Page_Test/Homepage_validate/Homa_Page_validate" classname="Test Cases/OCS_Page_Test/Homepage_validate/Homa_Page_validate" status="PASSED">
+         <system-out><![CDATA[2019-04-02 09:43:16 - [TEST_CASE][PASSED] - Test Cases/OCS_Page_Test/Homepage_validate/Homa_Page_validate: Test Cases/OCS_Page_Test/Homepage_validate/Homa_Page_validate
+
+2019-04-02 09:43:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SetUpp/SetUp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SetUpp/SetUp' successfully
+
+2019-04-02 09:43:16 - [TEST_CASE][PASSED] - Test Cases/SetUpp/SetUp: Test Cases/SetUpp/SetUp
+
+2019-04-02 09:43:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-02 09:43:17 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-02 09:43:17 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-02 09:43:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-02 09:43:19 - [TEST_STEP][PASSED] - navigateToUrl("https://ydtwebstaging.com"): Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-04-02 09:43:24 - [MESSAGE][PASSED] - Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-04-02 09:43:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-02 09:43:24 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-02 09:43:24 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-04-02 09:43:24 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-02 09:43:24 - [TEST_STEP][PASSED] - getWindowTitle(): Current window's title is: 'Healthcare Manager'
+
+2019-04-02 09:43:24 - [MESSAGE][PASSED] - Current window's title is: 'Healthcare Manager'
+
+2019-04-02 09:43:24 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2019-04-02 09:43:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-02 09:43:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SetUpp/SetUp' successfully
+
+2019-04-02 09:43:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/Login_Page/LoginPage_Positive_validate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate' successfully
+
+2019-04-02 09:43:24 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate: Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate
+
+2019-04-02 09:43:24 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_username"), "archana321"): Text 'archana321' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-04-02 09:43:24 - [MESSAGE][PASSED] - Text 'archana321' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-04-02 09:43:24 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_password"), "Archana321@"): Text 'Archana321@' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-04-02 09:43:24 - [MESSAGE][PASSED] - Text 'Archana321@' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-04-02 09:43:24 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page_OB/Page_Healthcare Manager/button_Submit")): Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-04-02 09:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-04-02 09:43:25 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully")): NOT_RUN: verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully"))
+
+2019-04-02 09:43:25 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully"))
+
+2019-04-02 09:43:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate' successfully
+
+2019-04-02 09:43:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/Home_Page/HomePage_Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/Home_Page/HomePage_Page' successfully
+
+2019-04-02 09:43:25 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/Home_Page/HomePage_Page: Test Cases/OCS_Page/Home_Page/HomePage_Page
+
+2019-04-02 09:43:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Home_Page_OR/Page_Healthcare Manager/div_Search")): Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/div_Search' is visible
+
+2019-04-02 09:43:26 - [MESSAGE][PASSED] - Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/div_Search' is visible
+
+2019-04-02 09:43:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Participants"), 20): Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Participants' is present
+
+2019-04-02 09:43:26 - [MESSAGE][PASSED] - Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Participants' is present
+
+2019-04-02 09:43:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Organisation")): Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Organisation' is visible
+
+2019-04-02 09:43:27 - [MESSAGE][PASSED] - Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Organisation' is visible
+
+2019-04-02 09:43:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_FMS")): Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_FMS' is visible
+
+2019-04-02 09:43:27 - [MESSAGE][PASSED] - Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_FMS' is visible
+
+2019-04-02 09:43:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Imail")): Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Imail' is visible
+
+2019-04-02 09:43:27 - [MESSAGE][PASSED] - Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Imail' is visible
+
+2019-04-02 09:43:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_CRM")): Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_CRM' is visible
+
+2019-04-02 09:43:27 - [MESSAGE][PASSED] - Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_CRM' is visible
+
+2019-04-02 09:43:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Recruitment")): Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Recruitment' is visible
+
+2019-04-02 09:43:27 - [MESSAGE][PASSED] - Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Recruitment' is visible
+
+2019-04-02 09:43:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Schedule")): Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Schedule' is visible
+
+2019-04-02 09:43:27 - [MESSAGE][PASSED] - Object 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Schedule' is visible
+
+2019-04-02 09:43:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/Home_Page/HomePage_Page' successfully
+
+2019-04-02 09:43:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TearDown/Broweser _close"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TearDown/Broweser _close' successfully
+
+2019-04-02 09:43:27 - [TEST_CASE][PASSED] - Test Cases/TearDown/Broweser _close: Test Cases/TearDown/Broweser _close
+
+2019-04-02 09:43:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-02 09:43:27 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-02 09:43:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TearDown/Broweser _close' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS_Page_Test/Login_Validate/Login_nagative_Validation" classname="Test Cases/OCS_Page_Test/Login_Validate/Login_nagative_Validation" status="PASSED">
+         <system-out><![CDATA[2019-04-02 09:43:27 - [TEST_CASE][PASSED] - Test Cases/OCS_Page_Test/Login_Validate/Login_nagative_Validation: Test Cases/OCS_Page_Test/Login_Validate/Login_nagative_Validation
+
+2019-04-02 09:43:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SetUpp/SetUp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SetUpp/SetUp' successfully
+
+2019-04-02 09:43:28 - [TEST_CASE][PASSED] - Test Cases/SetUpp/SetUp: Test Cases/SetUpp/SetUp
+
+2019-04-02 09:43:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-02 09:43:28 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-02 09:43:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-02 09:43:30 - [TEST_STEP][PASSED] - navigateToUrl("https://ydtwebstaging.com"): Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-04-02 09:43:34 - [MESSAGE][PASSED] - Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-04-02 09:43:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-02 09:43:35 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-02 09:43:35 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-04-02 09:43:35 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-02 09:43:35 - [TEST_STEP][PASSED] - getWindowTitle(): Current window's title is: 'Healthcare Manager'
+
+2019-04-02 09:43:35 - [MESSAGE][PASSED] - Current window's title is: 'Healthcare Manager'
+
+2019-04-02 09:43:35 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2019-04-02 09:43:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-02 09:43:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SetUpp/SetUp' successfully
+
+2019-04-02 09:43:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/Login_Page/LoginPage_nagative_Validate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/Login_Page/LoginPage_nagative_Validate' successfully
+
+2019-04-02 09:43:35 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/Login_Page/LoginPage_nagative_Validate: Test Cases/OCS_Page/Login_Page/LoginPage_nagative_Validate
+
+2019-04-02 09:43:35 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_username"), "archana321"): Text 'archana321' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-04-02 09:43:35 - [MESSAGE][PASSED] - Text 'archana321' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-04-02 09:43:35 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_password"), "Archana321"): Text 'Archana321' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-04-02 09:43:35 - [MESSAGE][PASSED] - Text 'Archana321' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-04-02 09:43:35 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page_OB/Page_Healthcare Manager/button_Submit")): Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-04-02 09:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-04-02 09:43:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Invalid username or password"), STOP_ON_FAILURE): Object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/div_Invalid username or password' is visible
+
+2019-04-02 09:43:37 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/div_Invalid username or password' is visible
+
+2019-04-02 09:43:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/Login_Page/LoginPage_nagative_Validate' successfully
+
+2019-04-02 09:43:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TearDown/Broweser _close"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TearDown/Broweser _close' successfully
+
+2019-04-02 09:43:37 - [TEST_CASE][PASSED] - Test Cases/TearDown/Broweser _close: Test Cases/TearDown/Broweser _close
+
+2019-04-02 09:43:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-02 09:43:37 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-02 09:43:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TearDown/Broweser _close' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS_Page_Test/Login_Validate/Login_positive_validate" classname="Test Cases/OCS_Page_Test/Login_Validate/Login_positive_validate" status="PASSED">
+         <system-out><![CDATA[2019-04-02 09:43:37 - [TEST_CASE][PASSED] - Test Cases/OCS_Page_Test/Login_Validate/Login_positive_validate: Test Cases/OCS_Page_Test/Login_Validate/Login_positive_validate
+
+2019-04-02 09:43:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SetUpp/SetUp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SetUpp/SetUp' successfully
+
+2019-04-02 09:43:37 - [TEST_CASE][PASSED] - Test Cases/SetUpp/SetUp: Test Cases/SetUpp/SetUp
+
+2019-04-02 09:43:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-02 09:43:37 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-02 09:43:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-02 09:43:40 - [TEST_STEP][PASSED] - navigateToUrl("https://ydtwebstaging.com"): Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-04-02 09:43:44 - [MESSAGE][PASSED] - Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-04-02 09:43:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-02 09:43:44 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-02 09:43:44 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-04-02 09:43:44 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-02 09:43:44 - [TEST_STEP][PASSED] - getWindowTitle(): Current window's title is: 'Healthcare Manager'
+
+2019-04-02 09:43:44 - [MESSAGE][PASSED] - Current window's title is: 'Healthcare Manager'
+
+2019-04-02 09:43:44 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2019-04-02 09:43:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-02 09:43:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SetUpp/SetUp' successfully
+
+2019-04-02 09:43:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/Login_Page/LoginPage_Positive_validate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate' successfully
+
+2019-04-02 09:43:45 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate: Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate
+
+2019-04-02 09:43:45 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_username"), "archana321"): Text 'archana321' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-04-02 09:43:45 - [MESSAGE][PASSED] - Text 'archana321' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-04-02 09:43:45 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_password"), "Archana321@"): Text 'Archana321@' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-04-02 09:43:45 - [MESSAGE][PASSED] - Text 'Archana321@' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-04-02 09:43:45 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page_OB/Page_Healthcare Manager/button_Submit")): Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-04-02 09:43:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-04-02 09:43:45 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully")): NOT_RUN: verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully"))
+
+2019-04-02 09:43:45 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully"))
+
+2019-04-02 09:43:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate' successfully
+
+2019-04-02 09:43:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TearDown/Broweser _close"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TearDown/Broweser _close' successfully
+
+2019-04-02 09:43:45 - [TEST_CASE][PASSED] - Test Cases/TearDown/Broweser _close: Test Cases/TearDown/Broweser _close
+
+2019-04-02 09:43:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-02 09:43:46 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-02 09:43:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TearDown/Broweser _close' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS_Page_Test/Participants_Test/DashBoard_Validate" classname="Test Cases/OCS_Page_Test/Participants_Test/DashBoard_Validate" status="PASSED">
+         <system-out><![CDATA[2019-04-02 09:43:46 - [TEST_CASE][PASSED] - Test Cases/OCS_Page_Test/Participants_Test/DashBoard_Validate: Test Cases/OCS_Page_Test/Participants_Test/DashBoard_Validate
+
+2019-04-02 09:43:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SetUpp/SetUp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SetUpp/SetUp' successfully
+
+2019-04-02 09:43:46 - [TEST_CASE][PASSED] - Test Cases/SetUpp/SetUp: Test Cases/SetUpp/SetUp
+
+2019-04-02 09:43:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-02 09:43:46 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-02 09:43:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-02 09:43:48 - [TEST_STEP][PASSED] - navigateToUrl("https://ydtwebstaging.com"): Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-04-02 09:43:52 - [MESSAGE][PASSED] - Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-04-02 09:43:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-02 09:43:52 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-02 09:43:52 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-04-02 09:43:52 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-02 09:43:52 - [TEST_STEP][PASSED] - getWindowTitle(): Current window's title is: 'Healthcare Manager'
+
+2019-04-02 09:43:52 - [MESSAGE][PASSED] - Current window's title is: 'Healthcare Manager'
+
+2019-04-02 09:43:52 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2019-04-02 09:43:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-02 09:43:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SetUpp/SetUp' successfully
+
+2019-04-02 09:43:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/Login_Page/LoginPage_Positive_validate"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate' successfully
+
+2019-04-02 09:43:52 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate: Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate
+
+2019-04-02 09:43:52 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_username"), "archana321"): Text 'archana321' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-04-02 09:43:52 - [MESSAGE][PASSED] - Text 'archana321' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-04-02 09:43:52 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_password"), "Archana321@"): Text 'Archana321@' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-04-02 09:43:53 - [MESSAGE][PASSED] - Text 'Archana321@' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-04-02 09:43:53 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page_OB/Page_Healthcare Manager/button_Submit")): Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-04-02 09:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-04-02 09:43:53 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully")): NOT_RUN: verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully"))
+
+2019-04-02 09:43:53 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully"))
+
+2019-04-02 09:43:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate' successfully
+
+2019-04-02 09:43:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/Participants_page/Participants_DashBoard_page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/Participants_page/Participants_DashBoard_page' successfully
+
+2019-04-02 09:43:53 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/Participants_page/Participants_DashBoard_page: Test Cases/OCS_Page/Participants_page/Participants_DashBoard_page
+
+2019-04-02 09:43:53 - [TEST_STEP][PASSED] - click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Participants")): Object: 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Participants' is clicked on
+
+2019-04-02 09:43:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Participants' is clicked on
+
+2019-04-02 09:43:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Participants_Page_OR/dashBoard/Page_Healthcare Manager/h1_Participants"), 10): Object 'Object Repository/Participants_Page_OR/dashBoard/Page_Healthcare Manager/h1_Participants' is present
+
+2019-04-02 09:43:56 - [MESSAGE][PASSED] - Object 'Object Repository/Participants_Page_OR/dashBoard/Page_Healthcare Manager/h1_Participants' is present
+
+2019-04-02 09:43:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Participants_Page_OR/dashBoard/Page_Healthcare Manager/canvas_New Participant Graph_chartjs-render-monitor"), 10): Object 'Object Repository/Participants_Page_OR/dashBoard/Page_Healthcare Manager/canvas_New Participant Graph_chartjs-render-monitor' is present
+
+2019-04-02 09:43:56 - [MESSAGE][PASSED] - Object 'Object Repository/Participants_Page_OR/dashBoard/Page_Healthcare Manager/canvas_New Participant Graph_chartjs-render-monitor' is present
+
+2019-04-02 09:43:56 - [TEST_STEP][PASSED] - click(findTestObject("Participants_Page_OR/dashBoard/Page_Healthcare Manager/span_Week")): Object: 'Object Repository/Participants_Page_OR/dashBoard/Page_Healthcare Manager/span_Week' is clicked on
+
+2019-04-02 09:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Participants_Page_OR/dashBoard/Page_Healthcare Manager/span_Week' is clicked on
+
+2019-04-02 09:43:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Participants_Page_OR/dashBoard/Page_Healthcare Manager/input_Year_search"), "archana archana"): Keys 'archana archana' sent to object: 'Object Repository/Participants_Page_OR/dashBoard/Page_Healthcare Manager/input_Year_search'
+
+2019-04-02 09:43:57 - [MESSAGE][PASSED] - Keys 'archana archana' sent to object: 'Object Repository/Participants_Page_OR/dashBoard/Page_Healthcare Manager/input_Year_search'
+
+2019-04-02 09:43:57 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Participants_Page_OR/dashBoard/Page_Healthcare Manager/span_Year_icon icon-search"), 10): Object 'Object Repository/Participants_Page_OR/dashBoard/Page_Healthcare Manager/span_Year_icon icon-search' is clickable
+
+2019-04-02 09:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/Participants_Page_OR/dashBoard/Page_Healthcare Manager/span_Year_icon icon-search' is clickable
+
+2019-04-02 09:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Participants_Page_OR/dashBoard/Page_Healthcare Manager/small_Include Inactive")): Object: 'Object Repository/Participants_Page_OR/dashBoard/Page_Healthcare Manager/small_Include Inactive' is clicked on
+
+2019-04-02 09:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Participants_Page_OR/dashBoard/Page_Healthcare Manager/small_Include Inactive' is clicked on
+
+2019-04-02 09:43:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/Participants_page/Participants_DashBoard_page' successfully
+
+2019-04-02 09:43:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TearDown/Broweser _close"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TearDown/Broweser _close' successfully
+
+2019-04-02 09:43:57 - [TEST_CASE][PASSED] - Test Cases/TearDown/Broweser _close: Test Cases/TearDown/Broweser _close
+
+2019-04-02 09:43:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-02 09:43:58 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-02 09:43:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TearDown/Broweser _close' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-02 09:43:16 - [TEST_SUITE][PASSED] - LoginTest: Test Cases/OCS_Page_Test/Participants_Test/DashBoard_Validate]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

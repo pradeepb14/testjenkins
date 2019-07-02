@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginTest,Chrome 73.0.3683.86,,2019-04-03 16:13:58,2019-04-03 16:14:22,23.461s,PASSED
+,,,,,,
+Test Cases/OCS_Page_Test/Login_Validate/Login_nagative_Validation,Chrome 73.0.3683.86,,2019-04-03 16:13:58,2019-04-03 16:14:12,13.241s,PASSED
+"callTestCase(findTestCase(""SetUpp/SetUp""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-03 16:13:59,2019-04-03 16:14:09,9.858s,PASSED
+"callTestCase(findTestCase(""OCS_Page/Login_Page/LoginPage_nagative_Validate""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-03 16:14:09,2019-04-03 16:14:11,2.227s,PASSED
+"callTestCase(findTestCase(""TearDown/Broweser _close""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-03 16:14:11,2019-04-03 16:14:12,0.833s,PASSED
+,,,,,,
+Test Cases/OCS_Page_Test/Login_Validate/Login_positive_validate,Chrome 73.0.3683.86,,2019-04-03 16:14:12,2019-04-03 16:14:22,9.968s,PASSED
+"callTestCase(findTestCase(""SetUpp/SetUp""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-03 16:14:12,2019-04-03 16:14:21,8.670s,PASSED
+"callTestCase(findTestCase(""OCS_Page/Login_Page/LoginPage_Positive_validate""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-03 16:14:21,2019-04-03 16:14:21,0.427s,PASSED
+"callTestCase(findTestCase(""TearDown/Broweser _close""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-03 16:14:21,2019-04-03 16:14:22,0.683s,PASSED

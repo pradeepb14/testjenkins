@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_Test,,,2019-04-02 09:40:34,2019-04-02 09:40:35,0.832s,FAILED
+,,,,,,
+Test Cases/OCS_Page/Login_Page/LoginPage_nagative_Validate,,,2019-04-02 09:40:34,2019-04-02 09:40:35,0.430s,FAILED
+"setText(findTestObject(""Login_Page_OB/Page_Healthcare Manager/input_Login here_username""), ""archana321"")",,,2019-04-02 09:40:34,2019-04-02 09:40:35,0.222s,FAILED
+,,,,,,
+Test Cases/OCS_Page/Login_Page/LoginPage_Positive_validate,,,2019-04-02 09:40:35,2019-04-02 09:40:35,0.213s,FAILED
+"setText(findTestObject(""Login_Page_OB/Page_Healthcare Manager/input_Login here_username""), ""archana321"")",,,2019-04-02 09:40:35,2019-04-02 09:40:35,0.023s,FAILED

@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Imail Test,Firefox 66.0,,2019-05-03 14:11:22,2019-05-03 14:13:06,1m - 44.006s,FAILED
+,,,,,,
+Test Cases/OCS_Page_Test/Imail_Validate/External_Imail_Validate/External_ComposeMail_validate,Firefox 66.0,,2019-05-03 14:11:22,2019-05-03 14:12:10,47.746s,FAILED
+Start listener action : BeforeTestCase,Firefox 66.0,,2019-05-03 14:11:22,2019-05-03 14:11:31,9.019s,PASSED
+"callTestCase(findTestCase(""OCS_Page/Imail_Page/EternalMail_PageDetail/External_ComposeNewMassage""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-05-03 14:11:31,2019-05-03 14:12:09,38.031s,FAILED
+Start listener action : AfterTestCase,Firefox 66.0,,2019-05-03 14:12:09,2019-05-03 14:12:10,0.595s,PASSED
+,,,,,,
+Test Cases/OCS_Page_Test/Imail_Validate/External_Imail_Validate/Validate_Dashboard Externai_Mail,Firefox 66.0,,2019-05-03 14:12:10,2019-05-03 14:12:27,17.215s,PASSED
+Start listener action : BeforeTestCase,Firefox 66.0,,2019-05-03 14:12:10,2019-05-03 14:12:20,10.382s,PASSED
+"callTestCase(findTestCase(""OCS_Page/Imail_Page/EternalMail_PageDetail/External_Mail_Page_INbox""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-05-03 14:12:20,2019-05-03 14:12:25,4.817s,PASSED
+"callTestCase(findTestCase(""OCS_Page/Imail_Page/EternalMail_PageDetail/External_Mail_Page_Draft""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-05-03 14:12:25,2019-05-03 14:12:25,0.402s,PASSED
+"callTestCase(findTestCase(""OCS_Page/Imail_Page/EternalMail_PageDetail/External_mail_Page_Archived""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-05-03 14:12:25,2019-05-03 14:12:26,0.953s,PASSED
+Start listener action : AfterTestCase,Firefox 66.0,,2019-05-03 14:12:26,2019-05-03 14:12:27,0.566s,PASSED
+,,,,,,
+Test Cases/OCS_Page_Test/Imail_Validate/INternal_Imail_Validate_/Internal_ComposeMail_Validate,Firefox 66.0,,2019-05-03 14:12:27,2019-05-03 14:12:47,19.704s,PASSED
+Start listener action : BeforeTestCase,Firefox 66.0,,2019-05-03 14:12:27,2019-05-03 14:12:37,10.430s,PASSED
+"callTestCase(findTestCase(""OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_ComposeMail""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-05-03 14:12:37,2019-05-03 14:12:46,8.486s,PASSED
+Start listener action : AfterTestCase,Firefox 66.0,,2019-05-03 14:12:46,2019-05-03 14:12:47,0.681s,PASSED
+,,,,,,
+Test Cases/OCS_Page_Test/Imail_Validate/INternal_Imail_Validate_/Internal_Imail_Dashboard_Validate,Firefox 66.0,,2019-05-03 14:12:47,2019-05-03 14:13:06,19.070s,PASSED
+Start listener action : BeforeTestCase,Firefox 66.0,,2019-05-03 14:12:47,2019-05-03 14:12:57,10.421s,PASSED
+"callTestCase(findTestCase(""OCS_Page/Imail_Page/InternalMail_PageDetail/Innternal_Mail_Page_Inbox""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-05-03 14:12:57,2019-05-03 14:13:02,4.927s,PASSED
+"callTestCase(findTestCase(""OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_Mail_GroupMsg""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-05-03 14:13:02,2019-05-03 14:13:03,1.356s,PASSED
+"callTestCase(findTestCase(""OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_Mail_Page_Draft""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-05-03 14:13:03,2019-05-03 14:13:05,1.697s,PASSED
+Start listener action : AfterTestCase,Firefox 66.0,,2019-05-03 14:13:05,2019-05-03 14:13:06,0.579s,PASSED

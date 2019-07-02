@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Imail Test" time="104" tests="3" failures="1" errors="0">
+   <testsuite name="Imail Test" tests="3" failures="1" errors="0" time="104" timestamp="2019-05-03 14:11:22" hostname="win10 - DESKTOP-28KHHQ1" id="Test Suites/Imail Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Archana\\Archana\\OCS_HCM\\OCS_HCM\\Reports\\Imail Test\\20190503_141120"/>
+         <property name="logFiles" value="E:\\Archana\\Archana\\OCS_HCM\\OCS_HCM\\Reports\\Imail Test\\20190503_141120\\execution0.log"/>
+         <property name="attachments" value="E:\\Archana\\Archana\\OCS_HCM\\OCS_HCM\\Reports\\Imail Test\\20190503_141120\\1556872929420.png, E:\\Archana\\Archana\\OCS_HCM\\OCS_HCM\\Reports\\Imail Test\\20190503_141120\\1556872929541.png"/>
+         <property name="hostName" value="win10 - DESKTOP-28KHHQ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="10.159.242.133"/>
+         <property name="sessionId" value="04c620cf-dda6-4618-bf9b-5d2915c707b1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/OCS_Page_Test/Imail_Validate/External_Imail_Validate/External_ComposeMail_validate" classname="Test Cases/OCS_Page_Test/Imail_Validate/External_Imail_Validate/External_ComposeMail_validate" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS_Page_Test/Imail_Validate/External_Imail_Validate/External_ComposeMail_validate FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_ComposeNewMassage' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at External_ComposeMail_validate.run(External_ComposeMail_validate:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556872880946.run(TempTestSuite1556872880946.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at External_ComposeNewMassage.run(External_ComposeNewMassage:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' located by 'By.xpath: //div[(text() = 'Send mail successfully.✖' or . = 'Send mail successfully.✖')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+"/>
+         <system-out><![CDATA[2019-05-03 14:11:22 - [TEST_CASE][FAILED] - Test Cases/OCS_Page_Test/Imail_Validate/External_Imail_Validate/External_ComposeMail_validate: Test Cases/OCS_Page_Test/Imail_Validate/External_Imail_Validate/External_ComposeMail_validate FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_ComposeNewMassage' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at External_ComposeMail_validate.run(External_ComposeMail_validate:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556872880946.run(TempTestSuite1556872880946.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at External_ComposeNewMassage.run(External_ComposeNewMassage:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' located by 'By.xpath: //div[(text() = 'Send mail successfully.✖' or . = 'Send mail successfully.✖')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2019-05-03 14:11:22 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-05-03 14:11:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-03 14:11:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-03 14:11:22 - [MESSAGE][INFO] - User set preference: ['property', 'C:\Users\win10\Downloads']
+
+2019-05-03 14:11:22 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-03 14:11:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-03 14:11:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-03 14:11:25 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-03 14:11:25 - [TEST_STEP][PASSED] - navigateToUrl("https://ydtwebstaging.com"): Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-05-03 14:11:31 - [MESSAGE][PASSED] - Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-05-03 14:11:31 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_username"), "Archana@123"): Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-05-03 14:11:31 - [MESSAGE][PASSED] - Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-05-03 14:11:31 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_password"), "Archana@123"): Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-05-03 14:11:31 - [MESSAGE][PASSED] - Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-05-03 14:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page_OB/Page_Healthcare Manager/button_Submit")): Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-05-03 14:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-05-03 14:11:31 - [TEST_STEP][FAILED] - callTestCase(findTestCase("OCS_Page/Imail_Page/EternalMail_PageDetail/External_ComposeNewMassage"), [:], STOP_ON_FAILURE): callTestCase(findTestCase("OCS_Page/Imail_Page/EternalMail_PageDetail/External_ComposeNewMassage"), [:], STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_ComposeNewMassage' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at External_ComposeMail_validate.run(External_ComposeMail_validate:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556872880946.run(TempTestSuite1556872880946.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at External_ComposeNewMassage.run(External_ComposeNewMassage:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' located by 'By.xpath: //div[(text() = 'Send mail successfully.✖' or . = 'Send mail successfully.✖')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2019-05-03 14:11:31 - [TEST_CASE][FAILED] - Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_ComposeNewMassage: Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_ComposeNewMassage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at External_ComposeNewMassage.run(External_ComposeNewMassage:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at External_ComposeMail_validate.run(External_ComposeMail_validate:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556872880946.run(TempTestSuite1556872880946.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' located by 'By.xpath: //div[(text() = 'Send mail successfully.✖' or . = 'Send mail successfully.✖')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2019-05-03 14:11:31 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("OCS_Page/Login_Page/LoginPage_Positive_validate"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("OCS_Page/Login_Page/LoginPage_Positive_validate"), [:], STOP_ON_FAILURE)
+
+2019-05-03 14:11:31 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("OCS_Page/Login_Page/LoginPage_Positive_validate"), [:], STOP_ON_FAILURE)
+
+2019-05-03 14:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Imail")): Object: 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Imail' is clicked on
+
+2019-05-03 14:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Imail' is clicked on
+
+2019-05-03 14:11:33 - [TEST_STEP][PASSED] - click(findTestObject("Imail_OR/Page_Healthcare Manager/span_ExternalImail_icon icon-share Ext_1")): Object: 'Object Repository/Imail_OR/Page_Healthcare Manager/span_ExternalImail_icon icon-share Ext_1' is clicked on
+
+2019-05-03 14:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Imail_OR/Page_Healthcare Manager/span_ExternalImail_icon icon-share Ext_1' is clicked on
+
+2019-05-03 14:11:34 - [TEST_STEP][PASSED] - click(findTestObject("create externail mail/Page_Healthcare Manager/span_Compose New Message")): Object: 'Object Repository/create externail mail/Page_Healthcare Manager/span_Compose New Message' is clicked on
+
+2019-05-03 14:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/create externail mail/Page_Healthcare Manager/span_Compose New Message' is clicked on
+
+2019-05-03 14:11:35 - [TEST_STEP][PASSED] - click(findTestObject("create externail mail/Page_Healthcare Manager/div_To"), STOP_ON_FAILURE): Object: 'Object Repository/create externail mail/Page_Healthcare Manager/div_To' is clicked on
+
+2019-05-03 14:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/create externail mail/Page_Healthcare Manager/div_To' is clicked on
+
+2019-05-03 14:11:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create externail mail/Page_Healthcare Manager/Page_Healthcare Manager/input"), "archana"): Keys 'archana' sent to object: 'Object Repository/create externail mail/Page_Healthcare Manager/Page_Healthcare Manager/input'
+
+2019-05-03 14:11:35 - [MESSAGE][PASSED] - Keys 'archana' sent to object: 'Object Repository/create externail mail/Page_Healthcare Manager/Page_Healthcare Manager/input'
+
+2019-05-03 14:11:35 - [TEST_STEP][PASSED] - click(findTestObject("create externail mail/Page_Healthcare Manager/div_archana  Archana")): Object: 'Object Repository/create externail mail/Page_Healthcare Manager/div_archana  Archana' is clicked on
+
+2019-05-03 14:11:37 - [MESSAGE][PASSED] - Object: 'Object Repository/create externail mail/Page_Healthcare Manager/div_archana  Archana' is clicked on
+
+2019-05-03 14:11:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create externail mail/Page_Healthcare Manager/input_CC_subject"), "test  mail"): Keys 'test  mail' sent to object: 'Object Repository/create externail mail/Page_Healthcare Manager/input_CC_subject'
+
+2019-05-03 14:11:37 - [MESSAGE][PASSED] - Keys 'test  mail' sent to object: 'Object Repository/create externail mail/Page_Healthcare Manager/input_CC_subject'
+
+2019-05-03 14:11:37 - [TEST_STEP][PASSED] - setText(findTestObject("create externail mail/Page_Healthcare Manager/i_dfgdgdfgdgdgdddddd_icon icon-share-icon"), "This internet advertisement / campaign / e mailer/ promotional marketing activity is wholly / completely managed and sponsored by the advertising / promotional company and/or its media partners / Agencies. Monster.com as a publisher of this advertisement/ campaign /e-mailer / promotion and/or its digital agency does not validate the accuracy / genuineness of the contents of this internet advertisement / campaign / e mailer/"): Text 'This internet advertisement / campaign / e mailer/ promotional marketing activity is wholly / completely managed and sponsored by the advertising / promotional company and/or its media partners / Agencies. Monster.com as a publisher of this advertisement/ campaign /e-mailer / promotion and/or its digital agency does not validate the accuracy / genuineness of the contents of this internet advertisement / campaign / e mailer/' is set on object 'Object Repository/create externail mail/Page_Healthcare Manager/i_dfgdgdfgdgdgdddddd_icon icon-share-icon'
+
+2019-05-03 14:11:38 - [MESSAGE][PASSED] - Text 'This internet advertisement / campaign / e mailer/ promotional marketing activity is wholly / completely managed and sponsored by the advertising / promotional company and/or its media partners / Agencies. Monster.com as a publisher of this advertisement/ campaign /e-mailer / promotion and/or its digital agency does not validate the accuracy / genuineness of the contents of this internet advertisement / campaign / e mailer/' is set on object 'Object Repository/create externail mail/Page_Healthcare Manager/i_dfgdgdfgdgdgdddddd_icon icon-share-icon'
+
+2019-05-03 14:11:38 - [TEST_STEP][PASSED] - click(findTestObject("create externail mail/Page_Healthcare Manager/Page_Healthcare Manager/Send icon")): Object: 'Object Repository/create externail mail/Page_Healthcare Manager/Page_Healthcare Manager/Send icon' is clicked on
+
+2019-05-03 14:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/create externail mail/Page_Healthcare Manager/Page_Healthcare Manager/Send icon' is clicked on
+
+2019-05-03 14:11:38 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("create externail mail/Page_Healthcare Manager/div_Send mail successfully")): verifyElementVisible(findTestObject("create externail mail/Page_Healthcare Manager/div_Send mail successfully")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at External_ComposeNewMassage.run(External_ComposeNewMassage:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at External_ComposeMail_validate.run(External_ComposeMail_validate:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556872880946.run(TempTestSuite1556872880946.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' located by 'By.xpath: //div[(text() = 'Send mail successfully.✖' or . = 'Send mail successfully.✖')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2019-05-03 14:12:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = 'Send mail successfully.✖' or . = 'Send mail successfully.✖')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-03 14:12:09 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' located by 'By.xpath: //div[(text() = 'Send mail successfully.✖' or . = 'Send mail successfully.✖')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' located by 'By.xpath: //div[(text() = 'Send mail successfully.✖' or . = 'Send mail successfully.✖')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at External_ComposeNewMassage.run(External_ComposeNewMassage:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at External_ComposeMail_validate.run(External_ComposeMail_validate:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556872880946.run(TempTestSuite1556872880946.groovy:35)
+)
+[[ATTACHMENT|E:\\Archana\\Archana\\OCS_HCM\\OCS_HCM\\Reports\\Imail Test\\20190503_141120\\1556872929420.png]]
+
+2019-05-03 14:12:09 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at External_ComposeNewMassage.run(External_ComposeNewMassage:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at External_ComposeMail_validate.run(External_ComposeMail_validate:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556872880946.run(TempTestSuite1556872880946.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' located by 'By.xpath: //div[(text() = 'Send mail successfully.✖' or . = 'Send mail successfully.✖')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+[[ATTACHMENT|E:\\Archana\\Archana\\OCS_HCM\\OCS_HCM\\Reports\\Imail Test\\20190503_141120\\1556872929541.png]]
+
+2019-05-03 14:12:09 - [MESSAGE][FAILED] - verifyElementVisible(findTestObject("create externail mail/Page_Healthcare Manager/div_Send mail successfully")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at External_ComposeNewMassage.run(External_ComposeNewMassage:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at External_ComposeMail_validate.run(External_ComposeMail_validate:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556872880946.run(TempTestSuite1556872880946.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' located by 'By.xpath: //div[(text() = 'Send mail successfully.✖' or . = 'Send mail successfully.✖')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2019-05-03 14:12:09 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_ComposeNewMassage' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_ComposeNewMassage' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at External_ComposeMail_validate.run(External_ComposeMail_validate:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556872880946.run(TempTestSuite1556872880946.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at External_ComposeNewMassage.run(External_ComposeNewMassage:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' located by 'By.xpath: //div[(text() = 'Send mail successfully.✖' or . = 'Send mail successfully.✖')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2019-05-03 14:12:09 - [MESSAGE][FAILED] - callTestCase(findTestCase("OCS_Page/Imail_Page/EternalMail_PageDetail/External_ComposeNewMassage"), [:], STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_ComposeNewMassage' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at External_ComposeMail_validate.run(External_ComposeMail_validate:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556872880946.run(TempTestSuite1556872880946.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at External_ComposeNewMassage.run(External_ComposeNewMassage:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' located by 'By.xpath: //div[(text() = 'Send mail successfully.✖' or . = 'Send mail successfully.✖')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2019-05-03 14:12:09 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2019-05-03 14:12:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-03 14:12:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2019-05-03 14:11:22 - [TEST_CASE][FAILED] - Test Cases/OCS_Page_Test/Imail_Validate/External_Imail_Validate/External_ComposeMail_validate: Test Cases/OCS_Page_Test/Imail_Validate/External_Imail_Validate/External_ComposeMail_validate FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_ComposeNewMassage' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at External_ComposeMail_validate.run(External_ComposeMail_validate:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556872880946.run(TempTestSuite1556872880946.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at External_ComposeNewMassage.run(External_ComposeNewMassage:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' located by 'By.xpath: //div[(text() = 'Send mail successfully.✖' or . = 'Send mail successfully.✖')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS_Page_Test/Imail_Validate/External_Imail_Validate/Validate_Dashboard Externai_Mail" classname="Test Cases/OCS_Page_Test/Imail_Validate/External_Imail_Validate/Validate_Dashboard Externai_Mail" status="PASSED">
+         <system-out><![CDATA[2019-05-03 14:12:10 - [TEST_CASE][PASSED] - Test Cases/OCS_Page_Test/Imail_Validate/External_Imail_Validate/Validate_Dashboard Externai_Mail: Test Cases/OCS_Page_Test/Imail_Validate/External_Imail_Validate/Validate_Dashboard Externai_Mail
+
+2019-05-03 14:12:10 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-05-03 14:12:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-03 14:12:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-03 14:12:10 - [MESSAGE][INFO] - User set preference: ['property', 'C:\Users\win10\Downloads']
+
+2019-05-03 14:12:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-03 14:12:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-03 14:12:12 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-03 14:12:12 - [TEST_STEP][PASSED] - navigateToUrl("https://ydtwebstaging.com"): Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-05-03 14:12:20 - [MESSAGE][PASSED] - Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-05-03 14:12:20 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_username"), "Archana@123"): Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-05-03 14:12:20 - [MESSAGE][PASSED] - Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-05-03 14:12:20 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_password"), "Archana@123"): Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-05-03 14:12:20 - [MESSAGE][PASSED] - Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-05-03 14:12:20 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page_OB/Page_Healthcare Manager/button_Submit")): Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-05-03 14:12:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-05-03 14:12:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/Imail_Page/EternalMail_PageDetail/External_Mail_Page_INbox"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_Mail_Page_INbox' successfully
+
+2019-05-03 14:12:20 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_Mail_Page_INbox: Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_Mail_Page_INbox
+
+2019-05-03 14:12:20 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("OCS_Page_Test/Login_Validate/Login_positive_validate"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("OCS_Page_Test/Login_Validate/Login_positive_validate"), [:], STOP_ON_FAILURE)
+
+2019-05-03 14:12:20 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("OCS_Page_Test/Login_Validate/Login_positive_validate"), [:], STOP_ON_FAILURE)
+
+2019-05-03 14:12:20 - [TEST_STEP][PASSED] - click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Imail")): Object: 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Imail' is clicked on
+
+2019-05-03 14:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Imail' is clicked on
+
+2019-05-03 14:12:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Imail_OR/Page_Healthcare Manager/h1_Welcome to Imail archana mohini")): Object 'Object Repository/Imail_OR/Page_Healthcare Manager/h1_Welcome to Imail archana mohini' is visible
+
+2019-05-03 14:12:23 - [MESSAGE][PASSED] - Object 'Object Repository/Imail_OR/Page_Healthcare Manager/h1_Welcome to Imail archana mohini' is visible
+
+2019-05-03 14:12:23 - [TEST_STEP][PASSED] - click(findTestObject("Imail_OR/Page_Healthcare Manager/span_ExternalImail_icon icon-share Ext_1")): Object: 'Object Repository/Imail_OR/Page_Healthcare Manager/span_ExternalImail_icon icon-share Ext_1' is clicked on
+
+2019-05-03 14:12:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Imail_OR/Page_Healthcare Manager/span_ExternalImail_icon icon-share Ext_1' is clicked on
+
+2019-05-03 14:12:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Imail_OR/Page_Healthcare Manager/h1_External Imail")): Object 'Object Repository/Imail_OR/Page_Healthcare Manager/h1_External Imail' is visible
+
+2019-05-03 14:12:24 - [MESSAGE][PASSED] - Object 'Object Repository/Imail_OR/Page_Healthcare Manager/h1_External Imail' is visible
+
+2019-05-03 14:12:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Imail_OR/Page_Healthcare Manager/input_Archived_search"), "archana"): Keys 'archana' sent to object: 'Object Repository/Imail_OR/Page_Healthcare Manager/input_Archived_search'
+
+2019-05-03 14:12:24 - [MESSAGE][PASSED] - Keys 'archana' sent to object: 'Object Repository/Imail_OR/Page_Healthcare Manager/input_Archived_search'
+
+2019-05-03 14:12:24 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Imail_OR/Page_Healthcare Manager/Page_Healthcare Manager/span_Archived_icon icon-search")): Object: 'Object Repository/Imail_OR/Page_Healthcare Manager/Page_Healthcare Manager/span_Archived_icon icon-search' is double clicked on
+
+2019-05-03 14:12:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Imail_OR/Page_Healthcare Manager/Page_Healthcare Manager/span_Archived_icon icon-search' is double clicked on
+
+2019-05-03 14:12:24 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Imail_OR/Page_Healthcare Manager/div_From archana mohini")): Object: 'Object Repository/Imail_OR/Page_Healthcare Manager/div_From archana mohini' is double clicked on
+
+2019-05-03 14:12:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Imail_OR/Page_Healthcare Manager/div_From archana mohini' is double clicked on
+
+2019-05-03 14:12:24 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Imail_OR/Page_Healthcare Manager/i_test_icon icon-envelope-im")): Object 'Object Repository/Imail_OR/Page_Healthcare Manager/i_test_icon icon-envelope-im' is clickable
+
+2019-05-03 14:12:25 - [MESSAGE][PASSED] - Object 'Object Repository/Imail_OR/Page_Healthcare Manager/i_test_icon icon-envelope-im' is clickable
+
+2019-05-03 14:12:25 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Imail_OR/Page_Healthcare Manager/i_test_icon icon-favorite-im")): Object 'Object Repository/Imail_OR/Page_Healthcare Manager/i_test_icon icon-favorite-im' is clickable
+
+2019-05-03 14:12:25 - [MESSAGE][PASSED] - Object 'Object Repository/Imail_OR/Page_Healthcare Manager/i_test_icon icon-favorite-im' is clickable
+
+2019-05-03 14:12:25 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Imail_OR/Page_Healthcare Manager/i_test_icon icon-flag-im")): Object 'Object Repository/Imail_OR/Page_Healthcare Manager/i_test_icon icon-flag-im' is clickable
+
+2019-05-03 14:12:25 - [MESSAGE][PASSED] - Object 'Object Repository/Imail_OR/Page_Healthcare Manager/i_test_icon icon-flag-im' is clickable
+
+2019-05-03 14:12:25 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Imail_OR/Page_Healthcare Manager/i_test_icon icon-block-im")): Object 'Object Repository/Imail_OR/Page_Healthcare Manager/i_test_icon icon-block-im' is clickable
+
+2019-05-03 14:12:25 - [MESSAGE][PASSED] - Object 'Object Repository/Imail_OR/Page_Healthcare Manager/i_test_icon icon-block-im' is clickable
+
+2019-05-03 14:12:25 - [TEST_STEP][NOT_RUN] - verifyElementClickable(findTestObject("Imail_OR/Page_Healthcare Manager/i_test_icon icon-archive-im")): NOT_RUN: verifyElementClickable(findTestObject("Imail_OR/Page_Healthcare Manager/i_test_icon icon-archive-im"))
+
+2019-05-03 14:12:25 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementClickable(findTestObject("Imail_OR/Page_Healthcare Manager/i_test_icon icon-archive-im"))
+
+2019-05-03 14:12:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_Mail_Page_INbox' successfully
+
+2019-05-03 14:12:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/Imail_Page/EternalMail_PageDetail/External_Mail_Page_Draft"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_Mail_Page_Draft' successfully
+
+2019-05-03 14:12:25 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_Mail_Page_Draft: Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_Mail_Page_Draft
+
+2019-05-03 14:12:25 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("OCS_Page_Test/Login_Validate/Login_positive_validate"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("OCS_Page_Test/Login_Validate/Login_positive_validate"), [:], STOP_ON_FAILURE)
+
+2019-05-03 14:12:25 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("OCS_Page_Test/Login_Validate/Login_positive_validate"), [:], STOP_ON_FAILURE)
+
+2019-05-03 14:12:25 - [TEST_STEP][NOT_RUN] - click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Imail")): NOT_RUN: click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Imail"))
+
+2019-05-03 14:12:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Imail"))
+
+2019-05-03 14:12:25 - [TEST_STEP][NOT_RUN] - click(findTestObject("Imail_OR/Page_Healthcare Manager/span_ExternalImail_icon icon-share Ext_1")): NOT_RUN: click(findTestObject("Imail_OR/Page_Healthcare Manager/span_ExternalImail_icon icon-share Ext_1"))
+
+2019-05-03 14:12:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Imail_OR/Page_Healthcare Manager/span_ExternalImail_icon icon-share Ext_1"))
+
+2019-05-03 14:12:25 - [TEST_STEP][PASSED] - click(findTestObject("Imail_OR/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/a_Drafts")): Object: 'Object Repository/Imail_OR/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/a_Drafts' is clicked on
+
+2019-05-03 14:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Imail_OR/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/a_Drafts' is clicked on
+
+2019-05-03 14:12:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_Mail_Page_Draft' successfully
+
+2019-05-03 14:12:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/Imail_Page/EternalMail_PageDetail/External_mail_Page_Archived"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_mail_Page_Archived' successfully
+
+2019-05-03 14:12:25 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_mail_Page_Archived: Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_mail_Page_Archived
+
+2019-05-03 14:12:26 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("OCS_Page_Test/Login_Validate/Login_positive_validate"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("OCS_Page_Test/Login_Validate/Login_positive_validate"), [:], STOP_ON_FAILURE)
+
+2019-05-03 14:12:26 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("OCS_Page_Test/Login_Validate/Login_positive_validate"), [:], STOP_ON_FAILURE)
+
+2019-05-03 14:12:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Imail")): NOT_RUN: click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Imail"))
+
+2019-05-03 14:12:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Imail"))
+
+2019-05-03 14:12:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("Imail_OR/Page_Healthcare Manager/span_ExternalImail_icon icon-share Ext_1")): NOT_RUN: click(findTestObject("Imail_OR/Page_Healthcare Manager/span_ExternalImail_icon icon-share Ext_1"))
+
+2019-05-03 14:12:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Imail_OR/Page_Healthcare Manager/span_ExternalImail_icon icon-share Ext_1"))
+
+2019-05-03 14:12:26 - [TEST_STEP][PASSED] - click(findTestObject("Imail_OR/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/a_Archived")): Object: 'Object Repository/Imail_OR/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/a_Archived' is clicked on
+
+2019-05-03 14:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Imail_OR/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/a_Archived' is clicked on
+
+2019-05-03 14:12:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Imail_OR/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/div_From archana mohini")): Object 'Object Repository/Imail_OR/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/div_From archana mohini' is visible
+
+2019-05-03 14:12:26 - [MESSAGE][PASSED] - Object 'Object Repository/Imail_OR/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/Page_Healthcare Manager/div_From archana mohini' is visible
+
+2019-05-03 14:12:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_mail_Page_Archived' successfully
+
+2019-05-03 14:12:26 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2019-05-03 14:12:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-03 14:12:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS_Page_Test/Imail_Validate/INternal_Imail_Validate_/Internal_ComposeMail_Validate" classname="Test Cases/OCS_Page_Test/Imail_Validate/INternal_Imail_Validate_/Internal_ComposeMail_Validate" status="PASSED">
+         <system-out><![CDATA[2019-05-03 14:12:27 - [TEST_CASE][PASSED] - Test Cases/OCS_Page_Test/Imail_Validate/INternal_Imail_Validate_/Internal_ComposeMail_Validate: Test Cases/OCS_Page_Test/Imail_Validate/INternal_Imail_Validate_/Internal_ComposeMail_Validate
+
+2019-05-03 14:12:27 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-05-03 14:12:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-03 14:12:27 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-03 14:12:27 - [MESSAGE][INFO] - User set preference: ['property', 'C:\Users\win10\Downloads']
+
+2019-05-03 14:12:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-03 14:12:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-03 14:12:29 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-03 14:12:29 - [TEST_STEP][PASSED] - navigateToUrl("https://ydtwebstaging.com"): Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-05-03 14:12:37 - [MESSAGE][PASSED] - Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-05-03 14:12:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_username"), "Archana@123"): Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-05-03 14:12:37 - [MESSAGE][PASSED] - Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-05-03 14:12:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_password"), "Archana@123"): Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-05-03 14:12:37 - [MESSAGE][PASSED] - Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-05-03 14:12:37 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page_OB/Page_Healthcare Manager/button_Submit")): Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-05-03 14:12:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-05-03 14:12:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_ComposeMail"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_ComposeMail' successfully
+
+2019-05-03 14:12:38 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_ComposeMail: Test Cases/OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_ComposeMail
+
+2019-05-03 14:12:38 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("OCS_Page/Login_Page/LoginPage_Positive_validate"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("OCS_Page/Login_Page/LoginPage_Positive_validate"), [:], STOP_ON_FAILURE)
+
+2019-05-03 14:12:38 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("OCS_Page/Login_Page/LoginPage_Positive_validate"), [:], STOP_ON_FAILURE)
+
+2019-05-03 14:12:38 - [TEST_STEP][PASSED] - click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Imail")): Object: 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Imail' is clicked on
+
+2019-05-03 14:12:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Imail' is clicked on
+
+2019-05-03 14:12:39 - [TEST_STEP][PASSED] - click(findTestObject("Internal_Compose mail/Page_Healthcare Manager/span_InternalImail_icon icon-share Int_1")): Object: 'Object Repository/Internal_Compose mail/Page_Healthcare Manager/span_InternalImail_icon icon-share Int_1' is clicked on
+
+2019-05-03 14:12:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Internal_Compose mail/Page_Healthcare Manager/span_InternalImail_icon icon-share Int_1' is clicked on
+
+2019-05-03 14:12:41 - [TEST_STEP][PASSED] - click(findTestObject("Internal_Compose mail/Page_Healthcare Manager/span_Compose New Message")): Object: 'Object Repository/Internal_Compose mail/Page_Healthcare Manager/span_Compose New Message' is clicked on
+
+2019-05-03 14:12:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Internal_Compose mail/Page_Healthcare Manager/span_Compose New Message' is clicked on
+
+2019-05-03 14:12:41 - [TEST_STEP][PASSED] - setText(findTestObject("Internal_Compose mail/Page_Healthcare Manager/input"), "archana"): Text 'archana' is set on object 'Object Repository/Internal_Compose mail/Page_Healthcare Manager/input'
+
+2019-05-03 14:12:41 - [MESSAGE][PASSED] - Text 'archana' is set on object 'Object Repository/Internal_Compose mail/Page_Healthcare Manager/input'
+
+2019-05-03 14:12:41 - [TEST_STEP][PASSED] - click(findTestObject("Internal_Compose mail/Page_Healthcare Manager/Page_Healthcare Manager/div_archana mohini")): Object: 'Object Repository/Internal_Compose mail/Page_Healthcare Manager/Page_Healthcare Manager/div_archana mohini' is clicked on
+
+2019-05-03 14:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Internal_Compose mail/Page_Healthcare Manager/Page_Healthcare Manager/div_archana mohini' is clicked on
+
+2019-05-03 14:12:43 - [TEST_STEP][PASSED] - setText(findTestObject("Internal_Compose mail/Page_Healthcare Manager/input_CC_subject"), "Demo set"): Text 'Demo set' is set on object 'Object Repository/Internal_Compose mail/Page_Healthcare Manager/input_CC_subject'
+
+2019-05-03 14:12:44 - [MESSAGE][PASSED] - Text 'Demo set' is set on object 'Object Repository/Internal_Compose mail/Page_Healthcare Manager/input_CC_subject'
+
+2019-05-03 14:12:44 - [TEST_STEP][PASSED] - setText(findTestObject("Internal_Compose mail/Page_Healthcare Manager/textarea_CC_mail"), "91	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider"): Text '91	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider' is set on object 'Object Repository/Internal_Compose mail/Page_Healthcare Manager/textarea_CC_mail'
+
+2019-05-03 14:12:44 - [MESSAGE][PASSED] - Text '91	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider' is set on object 'Object Repository/Internal_Compose mail/Page_Healthcare Manager/textarea_CC_mail'
+
+2019-05-03 14:12:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-03 14:12:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-03 14:12:46 - [TEST_STEP][PASSED] - click(findTestObject("Internal_Compose mail/Page_Healthcare Manager/i_This field is required_icon icon-share-icon")): Object: 'Object Repository/Internal_Compose mail/Page_Healthcare Manager/i_This field is required_icon icon-share-icon' is clicked on
+
+2019-05-03 14:12:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Internal_Compose mail/Page_Healthcare Manager/i_This field is required_icon icon-share-icon' is clicked on
+
+2019-05-03 14:12:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_ComposeMail' successfully
+
+2019-05-03 14:12:46 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2019-05-03 14:12:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-03 14:12:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS_Page_Test/Imail_Validate/INternal_Imail_Validate_/Internal_Imail_Dashboard_Validate" classname="Test Cases/OCS_Page_Test/Imail_Validate/INternal_Imail_Validate_/Internal_Imail_Dashboard_Validate" status="PASSED">
+         <system-out><![CDATA[2019-05-03 14:12:47 - [TEST_CASE][PASSED] - Test Cases/OCS_Page_Test/Imail_Validate/INternal_Imail_Validate_/Internal_Imail_Dashboard_Validate: Test Cases/OCS_Page_Test/Imail_Validate/INternal_Imail_Validate_/Internal_Imail_Dashboard_Validate
+
+2019-05-03 14:12:47 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-05-03 14:12:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-03 14:12:47 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-03 14:12:47 - [MESSAGE][INFO] - User set preference: ['property', 'C:\Users\win10\Downloads']
+
+2019-05-03 14:12:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-03 14:12:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-03 14:12:49 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-03 14:12:49 - [TEST_STEP][PASSED] - navigateToUrl("https://ydtwebstaging.com"): Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-05-03 14:12:57 - [MESSAGE][PASSED] - Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-05-03 14:12:57 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_username"), "Archana@123"): Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-05-03 14:12:57 - [MESSAGE][PASSED] - Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-05-03 14:12:57 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_password"), "Archana@123"): Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-05-03 14:12:57 - [MESSAGE][PASSED] - Text 'Archana@123' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-05-03 14:12:57 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page_OB/Page_Healthcare Manager/button_Submit")): Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-05-03 14:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-05-03 14:12:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/Imail_Page/InternalMail_PageDetail/Innternal_Mail_Page_Inbox"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/Imail_Page/InternalMail_PageDetail/Innternal_Mail_Page_Inbox' successfully
+
+2019-05-03 14:12:57 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/Imail_Page/InternalMail_PageDetail/Innternal_Mail_Page_Inbox: Test Cases/OCS_Page/Imail_Page/InternalMail_PageDetail/Innternal_Mail_Page_Inbox
+
+2019-05-03 14:12:57 - [TEST_STEP][PASSED] - click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Imail")): Object: 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Imail' is clicked on
+
+2019-05-03 14:12:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_Page_OR/Page_Healthcare Manager/p_Imail' is clicked on
+
+2019-05-03 14:12:59 - [TEST_STEP][PASSED] - click(findTestObject("Internal_Compose mail/Page_Healthcare Manager/span_InternalImail_icon icon-share Int_1")): Object: 'Object Repository/Internal_Compose mail/Page_Healthcare Manager/span_InternalImail_icon icon-share Int_1' is clicked on
+
+2019-05-03 14:13:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Internal_Compose mail/Page_Healthcare Manager/span_InternalImail_icon icon-share Int_1' is clicked on
+
+2019-05-03 14:13:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Healthcare Manager/div_From archana mohini")): Object: 'Object Repository/Page_Healthcare Manager/div_From archana mohini' is clicked on
+
+2019-05-03 14:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Healthcare Manager/div_From archana mohini' is clicked on
+
+2019-05-03 14:13:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Healthcare Manager/i_test_icon icon-envelope-im active")): Object: 'Object Repository/Page_Healthcare Manager/i_test_icon icon-envelope-im active' is clicked on
+
+2019-05-03 14:13:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Healthcare Manager/i_test_icon icon-envelope-im active' is clicked on
+
+2019-05-03 14:13:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Healthcare Manager/i_test_icon icon-favorite-im")): Object 'Object Repository/Page_Healthcare Manager/i_test_icon icon-favorite-im' is clickable
+
+2019-05-03 14:13:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Healthcare Manager/i_test_icon icon-favorite-im' is clickable
+
+2019-05-03 14:13:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Healthcare Manager/i_test_icon icon-flag-im")): Object 'Object Repository/Page_Healthcare Manager/i_test_icon icon-flag-im' is clickable
+
+2019-05-03 14:13:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Healthcare Manager/i_test_icon icon-flag-im' is clickable
+
+2019-05-03 14:13:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Healthcare Manager/i_test_icon icon-favorite-im")): Object 'Object Repository/Page_Healthcare Manager/i_test_icon icon-favorite-im' is clickable
+
+2019-05-03 14:13:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Healthcare Manager/i_test_icon icon-favorite-im' is clickable
+
+2019-05-03 14:13:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_Healthcare Manager/i_test_icon icon-block-im"), STOP_ON_FAILURE): Object 'Object Repository/Page_Healthcare Manager/i_test_icon icon-block-im' is clickable
+
+2019-05-03 14:13:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Healthcare Manager/i_test_icon icon-block-im' is clickable
+
+2019-05-03 14:13:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Healthcare Manager/i_test_icon icon-block-im")): Object 'Object Repository/Page_Healthcare Manager/i_test_icon icon-block-im' is clickable
+
+2019-05-03 14:13:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Healthcare Manager/i_test_icon icon-block-im' is clickable
+
+2019-05-03 14:13:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/Imail_Page/InternalMail_PageDetail/Innternal_Mail_Page_Inbox' successfully
+
+2019-05-03 14:13:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_Mail_GroupMsg"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_Mail_GroupMsg' successfully
+
+2019-05-03 14:13:02 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_Mail_GroupMsg: Test Cases/OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_Mail_GroupMsg
+
+2019-05-03 14:13:02 - [TEST_STEP][NOT_RUN] - click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Imail")): NOT_RUN: click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Imail"))
+
+2019-05-03 14:13:02 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Imail"))
+
+2019-05-03 14:13:02 - [TEST_STEP][NOT_RUN] - click(findTestObject("Internal_Compose mail/Page_Healthcare Manager/span_InternalImail_icon icon-share Int_1")): NOT_RUN: click(findTestObject("Internal_Compose mail/Page_Healthcare Manager/span_InternalImail_icon icon-share Int_1"))
+
+2019-05-03 14:13:02 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Internal_Compose mail/Page_Healthcare Manager/span_InternalImail_icon icon-share Int_1"))
+
+2019-05-03 14:13:02 - [TEST_STEP][PASSED] - click(findTestObject("new_gropmsg/Page_Healthcare Manager/a_Group Messages")): Object: 'Object Repository/new_gropmsg/Page_Healthcare Manager/a_Group Messages' is clicked on
+
+2019-05-03 14:13:03 - [MESSAGE][PASSED] - Object: 'Object Repository/new_gropmsg/Page_Healthcare Manager/a_Group Messages' is clicked on
+
+2019-05-03 14:13:03 - [TEST_STEP][PASSED] - click(findTestObject("new_gropmsg/Page_Healthcare Manager/span_Departments")): Object: 'Object Repository/new_gropmsg/Page_Healthcare Manager/span_Departments' is clicked on
+
+2019-05-03 14:13:03 - [MESSAGE][PASSED] - Object: 'Object Repository/new_gropmsg/Page_Healthcare Manager/span_Departments' is clicked on
+
+2019-05-03 14:13:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("new_gropmsg/Page_Healthcare Manager/div_Accommodation  Client Services")): Object 'Object Repository/new_gropmsg/Page_Healthcare Manager/div_Accommodation  Client Services' is clickable
+
+2019-05-03 14:13:03 - [MESSAGE][PASSED] - Object 'Object Repository/new_gropmsg/Page_Healthcare Manager/div_Accommodation  Client Services' is clickable
+
+2019-05-03 14:13:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("new_gropmsg/Page_Healthcare Manager/div_Casual Staff Services")): Object 'Object Repository/new_gropmsg/Page_Healthcare Manager/div_Casual Staff Services' is clickable
+
+2019-05-03 14:13:03 - [MESSAGE][PASSED] - Object 'Object Repository/new_gropmsg/Page_Healthcare Manager/div_Casual Staff Services' is clickable
+
+2019-05-03 14:13:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("new_gropmsg/Page_Healthcare Manager/div_People  Culture"), STOP_ON_FAILURE): Object 'Object Repository/new_gropmsg/Page_Healthcare Manager/div_People  Culture' is clickable
+
+2019-05-03 14:13:03 - [MESSAGE][PASSED] - Object 'Object Repository/new_gropmsg/Page_Healthcare Manager/div_People  Culture' is clickable
+
+2019-05-03 14:13:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("new_gropmsg/Page_Healthcare Manager/div_Business Systems")): Object 'Object Repository/new_gropmsg/Page_Healthcare Manager/div_Business Systems' is clickable
+
+2019-05-03 14:13:03 - [MESSAGE][PASSED] - Object 'Object Repository/new_gropmsg/Page_Healthcare Manager/div_Business Systems' is clickable
+
+2019-05-03 14:13:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("new_gropmsg/Page_Healthcare Manager/div_Marketing")): Object 'Object Repository/new_gropmsg/Page_Healthcare Manager/div_Marketing' is clickable
+
+2019-05-03 14:13:03 - [MESSAGE][PASSED] - Object 'Object Repository/new_gropmsg/Page_Healthcare Manager/div_Marketing' is clickable
+
+2019-05-03 14:13:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("new_gropmsg/Page_Healthcare Manager/div_Finance")): Object 'Object Repository/new_gropmsg/Page_Healthcare Manager/div_Finance' is clickable
+
+2019-05-03 14:13:03 - [MESSAGE][PASSED] - Object 'Object Repository/new_gropmsg/Page_Healthcare Manager/div_Finance' is clickable
+
+2019-05-03 14:13:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("new_gropmsg/Page_Healthcare Manager/div_DepartmentsAccommodation  Client ServicesCasual Staff ServicesPeople  CultureBusiness SystemsMarketingFinanceMy TeamtestNo Message Select")): Object 'Object Repository/new_gropmsg/Page_Healthcare Manager/div_DepartmentsAccommodation  Client ServicesCasual Staff ServicesPeople  CultureBusiness SystemsMarketingFinanceMy TeamtestNo Message Select' is clickable
+
+2019-05-03 14:13:03 - [MESSAGE][PASSED] - Object 'Object Repository/new_gropmsg/Page_Healthcare Manager/div_DepartmentsAccommodation  Client ServicesCasual Staff ServicesPeople  CultureBusiness SystemsMarketingFinanceMy TeamtestNo Message Select' is clickable
+
+2019-05-03 14:13:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_Mail_GroupMsg' successfully
+
+2019-05-03 14:13:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_Mail_Page_Draft"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_Mail_Page_Draft' successfully
+
+2019-05-03 14:13:04 - [TEST_CASE][PASSED] - Test Cases/OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_Mail_Page_Draft: Test Cases/OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_Mail_Page_Draft
+
+2019-05-03 14:13:04 - [TEST_STEP][NOT_RUN] - click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Imail")): NOT_RUN: click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Imail"))
+
+2019-05-03 14:13:04 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Home_Page_OR/Page_Healthcare Manager/p_Imail"))
+
+2019-05-03 14:13:04 - [TEST_STEP][NOT_RUN] - click(findTestObject("Internal_Compose mail/Page_Healthcare Manager/span_InternalImail_icon icon-share Int_1")): NOT_RUN: click(findTestObject("Internal_Compose mail/Page_Healthcare Manager/span_InternalImail_icon icon-share Int_1"))
+
+2019-05-03 14:13:04 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Internal_Compose mail/Page_Healthcare Manager/span_InternalImail_icon icon-share Int_1"))
+
+2019-05-03 14:13:04 - [TEST_STEP][PASSED] - click(findTestObject("Internal_Draft/Page_Healthcare Manager/a_Drafts")): Object: 'Object Repository/Internal_Draft/Page_Healthcare Manager/a_Drafts' is clicked on
+
+2019-05-03 14:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Internal_Draft/Page_Healthcare Manager/a_Drafts' is clicked on
+
+2019-05-03 14:13:04 - [TEST_STEP][PASSED] - click(findTestObject("Internal_Draft/Page_Healthcare Manager/div_30042019 902 PM")): Object: 'Object Repository/Internal_Draft/Page_Healthcare Manager/div_30042019 902 PM' is clicked on
+
+2019-05-03 14:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Internal_Draft/Page_Healthcare Manager/div_30042019 902 PM' is clicked on
+
+2019-05-03 14:13:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Internal_Draft/Page_Healthcare Manager/div_From archana mohini"), 10): Object 'Object Repository/Internal_Draft/Page_Healthcare Manager/div_From archana mohini' is present
+
+2019-05-03 14:13:05 - [MESSAGE][PASSED] - Object 'Object Repository/Internal_Draft/Page_Healthcare Manager/div_From archana mohini' is present
+
+2019-05-03 14:13:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS_Page/Imail_Page/InternalMail_PageDetail/Internal_Mail_Page_Draft' successfully
+
+2019-05-03 14:13:05 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2019-05-03 14:13:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-03 14:13:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-03 14:11:22 - [TEST_SUITE][FAILED] - Imail Test: Test Cases/OCS_Page_Test/Imail_Validate/External_Imail_Validate/External_ComposeMail_validate FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_ComposeNewMassage' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at External_ComposeMail_validate.run(External_ComposeMail_validate:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556872880946.run(TempTestSuite1556872880946.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at External_ComposeNewMassage.run(External_ComposeNewMassage:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' located by 'By.xpath: //div[(text() = 'Send mail successfully.✖' or . = 'Send mail successfully.✖')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-out>
+      <system-err><![CDATA[2019-05-03 14:11:22 - [TEST_SUITE][FAILED] - Imail Test: Test Cases/OCS_Page_Test/Imail_Validate/External_Imail_Validate/External_ComposeMail_validate FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/OCS_Page/Imail_Page/EternalMail_PageDetail/External_ComposeNewMassage' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at External_ComposeMail_validate.run(External_ComposeMail_validate:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556872880946.run(TempTestSuite1556872880946.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$6.call(Unknown Source)
+	at External_ComposeNewMassage.run(External_ComposeNewMassage:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/create externail mail/Page_Healthcare Manager/div_Send mail successfully' located by 'By.xpath: //div[(text() = 'Send mail successfully.✖' or . = 'Send mail successfully.✖')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+   </testsuite>
+</testsuites>

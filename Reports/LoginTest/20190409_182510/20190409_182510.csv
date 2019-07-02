@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginTest,Firefox 66.0,,2019-04-09 18:25:11,2019-04-09 18:25:38,26.371s,PASSED
+,,,,,,
+Test Cases/OCS_Page_Test/Login_Validate/Login_nagative_Validation,Firefox 66.0,,2019-04-09 18:25:12,2019-04-09 18:25:26,14.688s,PASSED
+"callTestCase(findTestCase(""SetUpp/SetUp""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-04-09 18:25:12,2019-04-09 18:25:24,11.946s,PASSED
+"callTestCase(findTestCase(""OCS_Page/Login_Page/LoginPage_nagative_Validate""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-04-09 18:25:24,2019-04-09 18:25:26,1.640s,PASSED
+"callTestCase(findTestCase(""TearDown/Broweser _close""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-04-09 18:25:26,2019-04-09 18:25:26,0.704s,PASSED
+,,,,,,
+Test Cases/OCS_Page_Test/Login_Validate/Login_positive_validate,Firefox 66.0,,2019-04-09 18:25:26,2019-04-09 18:25:38,11.392s,PASSED
+"callTestCase(findTestCase(""SetUpp/SetUp""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-04-09 18:25:26,2019-04-09 18:25:37,10.279s,PASSED
+"callTestCase(findTestCase(""OCS_Page/Login_Page/LoginPage_Positive_validate""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-04-09 18:25:37,2019-04-09 18:25:37,0.501s,PASSED
+"callTestCase(findTestCase(""TearDown/Broweser _close""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-04-09 18:25:37,2019-04-09 18:25:38,0.480s,PASSED

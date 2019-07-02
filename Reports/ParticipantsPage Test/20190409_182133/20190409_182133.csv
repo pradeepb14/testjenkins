@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ParticipantsPage Test,Chrome 73.0.3683.86,,2019-04-09 18:22:21,2019-04-09 18:22:40,19.045s,PASSED
+,,,,,,
+Test Cases/OCS_Page_Test/Participants_Test/DashBoard_Validate,Chrome 73.0.3683.86,,2019-04-09 18:22:21,2019-04-09 18:22:40,18.875s,PASSED
+"callTestCase(findTestCase(""SetUpp/SetUp""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 18:22:22,2019-04-09 18:22:34,12.476s,PASSED
+"callTestCase(findTestCase(""OCS_Page/Login_Page/LoginPage_Positive_validate""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 18:22:34,2019-04-09 18:22:35,0.419s,PASSED
+"callTestCase(findTestCase(""OCS_Page/Participants_page/Participants_DashBoard_page""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 18:22:35,2019-04-09 18:22:40,5.024s,PASSED
+"callTestCase(findTestCase(""TearDown/Broweser _close""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 18:22:40,2019-04-09 18:22:40,0.754s,PASSED

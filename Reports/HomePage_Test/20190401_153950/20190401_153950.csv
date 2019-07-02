@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+HomePage_Test,Firefox 66.0,,2019-04-01 15:39:52,2019-04-01 15:40:04,12.719s,PASSED
+,,,,,,
+Test Cases/HomePage_Validate,Firefox 66.0,,2019-04-01 15:39:52,2019-04-01 15:40:04,12.547s,PASSED
+"callTestCase(findTestCase(""Login_Page/LoginPage_Positive_validate""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-04-01 15:39:52,2019-04-01 15:40:02,9.506s,PASSED
+"verifyElementVisible(findTestObject(""Home_Page_OR/Page_Healthcare Manager/div_Search""))",Firefox 66.0,,2019-04-01 15:40:02,2019-04-01 15:40:03,1.733s,PASSED
+"verifyElementPresent(findTestObject(""Home_Page_OR/Page_Healthcare Manager/p_Participants""), 20)",Firefox 66.0,,2019-04-01 15:40:03,2019-04-01 15:40:03,0.015s,PASSED
+"verifyElementVisible(findTestObject(""Home_Page_OR/Page_Healthcare Manager/p_Organisation""))",Firefox 66.0,,2019-04-01 15:40:03,2019-04-01 15:40:03,0.030s,PASSED
+"verifyElementVisible(findTestObject(""Home_Page_OR/Page_Healthcare Manager/p_FMS""))",Firefox 66.0,,2019-04-01 15:40:03,2019-04-01 15:40:03,0.033s,PASSED
+"verifyElementVisible(findTestObject(""Home_Page_OR/Page_Healthcare Manager/p_Imail""))",Firefox 66.0,,2019-04-01 15:40:03,2019-04-01 15:40:03,0.069s,PASSED
+"verifyElementVisible(findTestObject(""Home_Page_OR/Page_Healthcare Manager/p_CRM""))",Firefox 66.0,,2019-04-01 15:40:03,2019-04-01 15:40:04,0.041s,PASSED
+"verifyElementVisible(findTestObject(""Home_Page_OR/Page_Healthcare Manager/p_Recruitment""))",Firefox 66.0,,2019-04-01 15:40:04,2019-04-01 15:40:04,0.039s,PASSED
+"verifyElementVisible(findTestObject(""Home_Page_OR/Page_Healthcare Manager/p_Schedule""))",Firefox 66.0,,2019-04-01 15:40:04,2019-04-01 15:40:04,0.054s,PASSED
+"verifyElementVisible(findTestObject(""Home_Page_OR/Page_Healthcare Manager/span_Logout_icon icon-menu menu_bar_icon""))",Firefox 66.0,,2019-04-01 15:40:04,2019-04-01 15:40:04,0.037s,PASSED
+"callTestCase(findTestCase(""TearDown/Broweser _close""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-04-01 15:40:04,2019-04-01 15:40:04,0.754s,PASSED

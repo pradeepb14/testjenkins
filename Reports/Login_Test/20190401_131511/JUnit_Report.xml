@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Test" time="27" tests="2" failures="0" errors="0">
+   <testsuite name="Login_Test" tests="2" failures="0" errors="0" time="27" timestamp="2019-04-01 13:15:12" hostname="win10 - DESKTOP-28KHHQ1" id="Test Suites/Login_Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\win10\\Katalon Studio\\OCS_HCM\\Reports\\Login_Test\\20190401_131511"/>
+         <property name="logFiles" value="C:\\Users\\win10\\Katalon Studio\\OCS_HCM\\Reports\\Login_Test\\20190401_131511\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="win10 - DESKTOP-28KHHQ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="10.159.242.133"/>
+         <property name="sessionId" value="d755d850-b2af-4381-8d02-1c844c6a2159"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LoginPage_nagative_Validate" classname="Test Cases/LoginPage_nagative_Validate" status="PASSED">
+         <system-out><![CDATA[2019-04-01 13:15:13 - [TEST_CASE][PASSED] - Test Cases/LoginPage_nagative_Validate: Test Cases/LoginPage_nagative_Validate
+
+2019-04-01 13:15:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-01 13:15:13 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-01 13:15:13 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-01 13:15:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-01 13:15:18 - [TEST_STEP][PASSED] - navigateToUrl("https://ydtwebstaging.com"): Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-04-01 13:15:26 - [MESSAGE][PASSED] - Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-04-01 13:15:26 - [TEST_STEP][PASSED] - getWindowTitle(): Current window's title is: 'Healthcare Manager'
+
+2019-04-01 13:15:26 - [MESSAGE][PASSED] - Current window's title is: 'Healthcare Manager'
+
+2019-04-01 13:15:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_username"), "archana321"): Text 'archana321' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-04-01 13:15:26 - [MESSAGE][PASSED] - Text 'archana321' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-04-01 13:15:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_password"), "Archana321"): Text 'Archana321' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-04-01 13:15:26 - [MESSAGE][PASSED] - Text 'Archana321' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-04-01 13:15:26 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page_OB/Page_Healthcare Manager/button_Submit")): Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-04-01 13:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-04-01 13:15:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Invalid username or password"), STOP_ON_FAILURE): Object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/div_Invalid username or password' is visible
+
+2019-04-01 13:15:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/div_Invalid username or password' is visible
+
+2019-04-01 13:15:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-01 13:15:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginPage_Positive_validate" classname="Test Cases/LoginPage_Positive_validate" status="PASSED">
+         <system-out><![CDATA[2019-04-01 13:15:28 - [TEST_CASE][PASSED] - Test Cases/LoginPage_Positive_validate: Test Cases/LoginPage_Positive_validate
+
+2019-04-01 13:15:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-01 13:15:28 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-01 13:15:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-01 13:15:30 - [TEST_STEP][PASSED] - navigateToUrl("https://ydtwebstaging.com"): Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-04-01 13:15:39 - [MESSAGE][PASSED] - Navigate to 'https://ydtwebstaging.com' successfully
+
+2019-04-01 13:15:39 - [TEST_STEP][PASSED] - getWindowTitle(): Current window's title is: 'Healthcare Manager'
+
+2019-04-01 13:15:39 - [MESSAGE][PASSED] - Current window's title is: 'Healthcare Manager'
+
+2019-04-01 13:15:39 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_username"), "archana321"): Text 'archana321' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-04-01 13:15:39 - [MESSAGE][PASSED] - Text 'archana321' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_username'
+
+2019-04-01 13:15:39 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page_OB/Page_Healthcare Manager/input_Login here_password"), "Archana321@"): Text 'Archana321@' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-04-01 13:15:39 - [MESSAGE][PASSED] - Text 'Archana321@' is set on object 'Object Repository/Login_Page_OB/Page_Healthcare Manager/input_Login here_password'
+
+2019-04-01 13:15:39 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page_OB/Page_Healthcare Manager/button_Submit")): Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-04-01 13:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page_OB/Page_Healthcare Manager/button_Submit' is clicked on
+
+2019-04-01 13:15:39 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully")): NOT_RUN: verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully"))
+
+2019-04-01 13:15:39 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Login_Page_OB/Page_Healthcare Manager/div_Login successfully"))
+
+2019-04-01 13:15:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-01 13:15:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-01 13:15:12 - [TEST_SUITE][PASSED] - Login_Test: Test Cases/LoginPage_Positive_validate]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

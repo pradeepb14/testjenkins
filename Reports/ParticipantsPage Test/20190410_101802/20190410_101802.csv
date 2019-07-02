@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ParticipantsPage Test,Firefox 66.0,,2019-04-10 10:18:46,2019-04-10 10:19:00,13.965s,PASSED
+,,,,,,
+Test Cases/OCS_Page_Test/Participants_Test/DashBoard_Validate,Firefox 66.0,,2019-04-10 10:18:46,2019-04-10 10:19:00,13.820s,PASSED
+"callTestCase(findTestCase(""SetUpp/SetUp""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-04-10 10:18:47,2019-04-10 10:18:55,8.579s,PASSED
+"callTestCase(findTestCase(""OCS_Page/Login_Page/LoginPage_Positive_validate""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-04-10 10:18:55,2019-04-10 10:18:56,0.581s,PASSED
+"callTestCase(findTestCase(""OCS_Page/Participants_page/Participants_DashBoard_page""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-04-10 10:18:56,2019-04-10 10:19:00,3.707s,PASSED
+"callTestCase(findTestCase(""TearDown/Broweser _close""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-04-10 10:19:00,2019-04-10 10:19:00,0.741s,PASSED

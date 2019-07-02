@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>participants_CrreateNewParticippants_Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72317ecb-fc2e-4994-b81f-86c191539034</testCaseGuid>
+   <variable>
+      <defaultValue>'TestDeozxdfvgdddd'</defaultValue>
+      <description></description>
+      <id>4d7e5eef-7d86-40eb-b5a3-920a53d3e44d</id>
+      <masked>true</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3ea6d22f-ffe1-4439-92ea-8c2bd7f4b1fc</id>
+      <masked>false</masked>
+      <name>variable_0</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a8c17cb-3e7a-46ee-99da-c759dad79fe0</id>
+      <masked>false</masked>
+      <name>variable_1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3c772ac6-85ab-4a99-81a0-01cb442fec3a</id>
+      <masked>false</masked>
+      <name>variable_2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c9576cba-0a73-427a-b2b3-d2f8bdb17fef</id>
+      <masked>false</masked>
+      <name>variable_3</name>
+   </variable>
+</TestCaseEntity>
